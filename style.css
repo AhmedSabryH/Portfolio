@@ -508,3 +508,30 @@ a{
         font-size: 3vw;
     }
 }
+@media screen and (max-height: 795px) {
+    .one .imgcon {
+        width: 30%;
+    }
+    nav a{
+        font-size: large;
+    }
+
+    .one .imgcon::after {
+        font-size: 30px;
+        width: 150px;
+        height: 150px;
+
+    }
+    @keyframes hello {
+        0% {
+            top: 0px;
+            right: 400px;
+    
+        }
+        100% {
+            top: 150px;
+            right: 490px;
+        }
+    }
+
+}
