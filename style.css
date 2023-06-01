@@ -483,6 +483,8 @@ a{
 @media screen and (max-width: 1000px) {
     nav a{
         font-size: 3.5vw;
+         margin: 5px;
+        padding: 5px 10px;
     }
     .one .imgcon{
         width: 100%;
