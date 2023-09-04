@@ -41,7 +41,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #6588b3;
 }
-
+.cimg{
+    width: 80% !important;
+    height: fit-content !important;
+    margin: 10% auto !important;
+}
+.cimg img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
 section {
     width: 100%;
     height: 100vh;
